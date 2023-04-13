@@ -1,0 +1,3 @@
+alias audioreset='systemctl --user restart wireplumber pipewire pipewire-pulse'
+alias fixlinks='sed -i -r -e '\''s_tv-[-/a-z0-9]*-ep[0-9]+_watch_g'\'''
+alias mplayer='mplayer -vo gl -fixed-vo'
